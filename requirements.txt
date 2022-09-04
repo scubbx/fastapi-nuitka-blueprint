@@ -1,0 +1,5 @@
+fastapi
+zstandard
+ordered-set
+nuitka
+uvicorn
