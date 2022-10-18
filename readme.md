@@ -1,8 +1,8 @@
-Run on commandline:
+Compile:
+```
+python3 -m nuitka --standalone --onefile --python-flag=no_site --include-module=service -o microservice.bin main.py
+```
 
-```
-uvicorn microservice:app --port 8181
-```
 
 * Access API: http://localhost:8181/
 * Access Docs (Swagger): http://localhost:8181/docs
